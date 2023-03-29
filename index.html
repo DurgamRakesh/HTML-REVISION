@@ -265,10 +265,93 @@
             /* h1::first-letter{
                 color: red;
             } */
-            h1::first-line{
+            /* h1::first-line{
                 color: red;
+            } */
+            /* .div-trs{
+                width: 200px;
+                height: 200px;
+                background-color: green;
+                transition: all 3s ease-in-out;
             }
+            .div-trs:hover{
+                width: 300px;
+                height: 300px;
+            } */
+
+            .div-ani{
+                width: 200px;
+                height: 200px;
+                background-color: green;
+                /* transform: scale(1); */
+                /* transform: skewX(20deg); */
+                /* transform: rotate(360deg); */
+                /* transform: translate(20px,20px); */
+                animation-name: animi;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-delay: 2s;
+            }
+            /* @keyframes animi {
+                0%{
+                    background-color: green;
+                }25%{
+                    background-color: red;
+                }
+                50%{
+                    background-color: blue;
+                }
+                75%{
+                    background-color: yellow;
+                }
+                100%{
+                    background-color: purple;
+                }
+            } */
+
+            /* @keyframes animi {
+                0%{
+                    transform: skewX(20deg);
+                }
+                50%{
+                    transform: skewX(0deg);
+
+                }
+                100%{
+                    transform: skewX(20deg);
+
+                }
+            } */
+            /* @keyframes animi {
+                0%{
+                    transform: rotate(360deg);
+                }
+                50%{
+                    transform: rotate(-360deg);
+
+                }
+                100%{
+                    transform: rotate(360deg);
+
+                }
+            } */
+
+             /* @keyframes animi {
+                0%{
+                    transform: translate(20px,20px);
+                }
+                50%{
+                    transform: translate(0px,0px);
+
+                }
+                100%{
+                    transform: translate(20px,20px);
+
+                }
+            } */
+            
     </style>
+    
 </head>
 <body>
     <!-- <table border="1" align="center" width="50%" cellpadding="5" >
@@ -374,11 +457,13 @@
     <!-- <table border="1">
         <tr>
             <th rowspan="2">name</th>
-            <th>destination</th>
+            <td>durgam</td>
         </tr>
         <tr>
-            <td>duram</td>
             <td>rakesh</td>
+        </tr>
+        <tr>
+            <th>des</th>
             <td>fullstack</td>
         </tr>
     </table> -->
@@ -503,6 +588,13 @@
 
     <!-- <a href="#">link</a> -->
 
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum reprehenderit ab molestias ipsa quo quis praesentium alias iure? Cupiditate necessitatibus, recusandae dicta, excepturi eius corporis accusantium sed incidunt molestias quam nobis possimus ullam, quod neque provident. Quidem autem deleniti sequi, saepe, odit, eum laborum at alias labore quaerat veniam mollitia.</h1>
+    <!-- <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum reprehenderit ab molestias ipsa quo quis praesentium alias iure? Cupiditate necessitatibus, recusandae dicta, excepturi eius corporis accusantium sed incidunt molestias quam nobis possimus ullam, quod neque provident. Quidem autem deleniti sequi, saepe, odit, eum laborum at alias labore quaerat veniam mollitia.</h1> -->
+
+    <!-- <div class="div-trs">
+
+    </div> -->
+    <div class="div-ani">
+
+    </div>
 </body>
 </html>
